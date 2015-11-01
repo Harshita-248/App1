@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="App1.BlankPage7"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="27*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="button" Content="Back" HorizontalAlignment="Left" Margin="11,-5,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="133,-2,0,0" TextWrapping="Wrap" Text="Analyze" VerticalAlignment="Top" Height="57" Width="148" FontSize="32"/>
+        <Button x:Name="button1" Content="Explore" HorizontalAlignment="Left" Margin="267,-7,0,318.641" VerticalAlignment="Bottom" Click="button1_Click" Height="58"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="16,66,0,0" TextWrapping="Wrap" Text="Search" VerticalAlignment="Top" Height="65" Width="358"/>
+        <Button x:Name="button2" Content="Location 1,  Bin 1" HorizontalAlignment="Left" Margin="87,161,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="289" Height="75" Background="#FFDA0505" Click="button2_Click" FontSize="24"/>
+        <Button x:Name="button3" Content="Location 1,  Bin 2" HorizontalAlignment="Left" Margin="88,236,0,0" VerticalAlignment="Top" Width="288" Height="76" Background="#FFE60B0B" Click="button3_Click" FontSize="24"/>
+        <Button x:Name="button4" Content="Location 3" HorizontalAlignment="Left" Margin="88,313,0,0" VerticalAlignment="Top" Width="288" Height="69" Background="#FFECCD0D" Click="button4_Click" FontSize="24" Grid.RowSpan="2"/>
+        <Button x:Name="button5" Content="Location 4" HorizontalAlignment="Left" Margin="90,14.359,0,0" VerticalAlignment="Top" Width="287" Height="71" Background="#FFF0D217" Click="button5_Click" FontSize="24" Grid.Row="1"/>
+        <CheckBox x:Name="checkBox" Content="" HorizontalAlignment="Left" Margin="25,167,0,0" VerticalAlignment="Top" Width="44" Height="68" Checked="checkBox_Checked"/>
+        <CheckBox x:Name="checkBox_Copy" Content="" HorizontalAlignment="Left" Margin="25,239,0,0" VerticalAlignment="Top" Width="55" Height="70" Checked="checkBox_Copy_Checked"/>
+        <CheckBox x:Name="checkBox_Copy1" Content="" HorizontalAlignment="Left" Margin="27,316,0,-14.359" VerticalAlignment="Top" Width="44" Height="68" Checked="checkBox_Copy1_Checked"/>
+        <CheckBox x:Name="checkBox_Copy2" Content="" HorizontalAlignment="Left" Margin="27,20.359,0,0" VerticalAlignment="Top" Width="44" Height="68" Checked="checkBox_Copy2_Checked" Grid.Row="1"/>
+        <RadioButton x:Name="radioButton" Content="Fill Trend" HorizontalAlignment="Left" Margin="34,164.359,0,0" VerticalAlignment="Top" Checked="radioButton_Checked" IsChecked="True" Grid.Row="1"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="28,97.359,0,0" TextWrapping="Wrap" Text="From:" VerticalAlignment="Top" Height="42" Width="73" FontSize="29.333" Grid.Row="1"/>
+        <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="28,141.359,0,0" TextWrapping="Wrap" Text="To:" VerticalAlignment="Top" Height="42" Width="73" FontSize="29.333" Grid.Row="1"/>
+        <DatePicker HorizontalAlignment="Left" Margin="117,81.359,0,0" VerticalAlignment="Top" Width="259" Grid.Row="1"/>
+        <DatePicker HorizontalAlignment="Left" Margin="117,127.359,0,0" VerticalAlignment="Top" Width="259" Grid.Row="1"/>
+        <RadioButton x:Name="radioButton_Copy" Content="TBD" HorizontalAlignment="Left" Margin="34,194.359,0,0" VerticalAlignment="Top" Checked="radioButton_Checked" Grid.Row="1"/>
+        <RadioButton x:Name="radioButton_Copy1" Content="TBD" HorizontalAlignment="Left" Margin="34,226.359,0,-13" VerticalAlignment="Top" Checked="radioButton_Checked" Grid.Row="1"/>
+
+    </Grid>
+</Page>
